@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="infoBrowser">
+    <output-path>$PROJECT_DIR$/out/artifacts/infoBrowser</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="info Browser" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="info Browser" />
+        <option name="vendor" value="info Browser" />
+        <option name="version" value="0.4" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="infoBrowser.jar">
+        <element id="module-output" name="infoBrowser" />
+      </element>
+      <element id="library" level="project" name="image4j-0.7.2" />
+      <element id="library" level="project" name="jsoup-1.11.3" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,140 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import  javafx.geometry.Pos.*?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.stage.Stage?>
+<?import javafx.stage.StageStyle?>
+<?import javafx.scene.layout.GridPane?>
+<?import java.util.ArrayList?>
+<?import javafx.scene.web.WebView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.text.Font?>
+<BorderPane  fx:id="ind" fx:controller="sample.Controller" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+    <top>
+        <BorderPane styleClass="header-section"  >
+
+            <top>
+                <BorderPane fx:id="taktak"   styleClass="header-section1"  onMouseDragged="#onClickDr" onMouseEntered="#onClickPr">
+                    <left>
+
+                        <HBox >
+                        <TabPane  styleClass="tab" tabClosingPolicy="ALL_TABS" fx:id="asas"  >
+<tabs>
+                            <Tab  styleClass="tabone" text="Google.ru -поисковая система">
+
+                            </Tab>
+                            <Tab   styleClass="tabone" text="Соц сеть вконтакте">
+
+
+                            </Tab>
+                            <Tab   styleClass="tabone" text="хакер.ру вес онвое для вас">
+
+
+                            </Tab>
+                            <Tab   styleClass="tabone" text="Видео чат">
+
+
+                            </Tab>
+
+</tabs>
+
+                        </TabPane>
+                        <HBox styleClass="sectionbut"    >
+                            <Button styleClass="but" onMouseClicked="#link" text="+"/>
+                        </HBox>
+                        </HBox>
+
+                    </left>
+                    <right>
+                   <HBox styleClass="section1" >
+                    <Button id="account" text="_"   onAction="#onClickMethod" fx:id="button2" />
+                    <Button id="account" text="&#128471;"  onAction="#all" fx:id="buttonall">
+
+                    </Button>
+                    <Button id="account" text="X" fx:id="exits12" onAction="#ex" >
+
+                    </Button>
+                </HBox>
+            </right>
+        </BorderPane>
+            </top>
+
+            <bottom>
+                <HBox styleClass="sidebar-section1" >
+                    <BorderPane styleClass="search"  >
+                        <left >
+                            <HBox styleClass="sidebar-section12"    >
+                                <Button  id="br">
+                                </Button>
+                            <Button  styleClass="left1" fx:id="backs" onMouseClicked="#goBack" >
+                            </Button>
+                                <Button  id="br1">
+                                </Button>
+                            <Button  styleClass="right1"  fx:id="forwards" onMouseClicked="#goForward"  >
+                            </Button>
+                                <Button  id="br1">
+                                </Button>
+                                <Button  id="update1" fx:id="update1" onMouseClicked="#upd">
+                                </Button>
+                                <Button  id="br1">
+                                </Button>
+                                <Button  id="home1" onMouseClicked="#cla">
+                                </Button>
+                                <Button  id="br">
+                                </Button>
+                            </HBox>
+                        </left>
+                        <center>
+                            <TextField  styleClass="textfil" fx:id="textfil1" onKeyPressed="#keyHandler" text="https://google.ru" />
+
+                        </center>
+                        <right>
+                            <HBox styleClass="sidebar-section12"   >
+                            <Button  id="br1">
+                            </Button>
+                                <Button  id="favorites1">
+                                </Button>
+                                <Button  id="br">
+                                </Button>
+                                <Button  id="gid" onMouseClicked="#op" fx:id="gida" onMouseEntered="#os1" onMouseExited="#os2" >
+                                </Button>
+                                <Button  id="br">
+                                </Button>
+                            <Button  id="menu1">
+                            </Button>
+                            <Button  id="br1">
+                            </Button>
+                            </HBox>
+                        </right>
+                    </BorderPane>
+                </HBox>
+            </bottom>
+        </BorderPane>
+
+    </top>
+
+    <center>
+
+    </center>
+    <left>
+        <HBox  styleClass="mptree" >
+            <BorderPane>
+                <left>
+                </left>
+                <center>
+                    <Button  styleClass="mptree1" text=">>">
+                    </Button>
+                </center>
+            </BorderPane>
+        </HBox>
+    </left>
+</BorderPane>

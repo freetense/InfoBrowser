@@ -1,0 +1,402 @@
+.root {
+    -fx-font-size: 14px;
+    -fx-font-family: sans-serif;
+    -fx-background-color: #ffffff;
+             -fx-border-width: 1;
+             -fx-border-color: #616568;
+
+}
+
+.header-section {
+    -fx-pref-height: 80px;
+    -fx-background-color:   #ffffff;
+}
+.header-section1 {
+-fx-background-color:   #DDDDDD;
+}
+#account {
+    -fx-background-color: #616568;
+    -fx-pref-height: 25px;
+    -fx-text-fill: #ffffff;
+         -fx-border-width: 1;
+         -fx-border-color: #616568;
+          -fx-cursor: hand;
+               -fx-focus-color: transparent;
+               -fx-faint-focus-color: transparent;
+               -fx-padding: -3 0 0 0;
+                    -fx-pref-width: 25px;
+
+}
+#account:hover {
+-fx-pref-height: 25px;
+    -fx-background-color: #000000;
+    -fx-text-fill: #ffffff;
+         -fx-border-width: 1;
+         -fx-border-color: #000000;
+          -fx-cursor: hand;
+               -fx-focus-color: transparent;
+               -fx-faint-focus-color: transparent;
+               -fx-padding: -3 0 0 0;
+                    -fx-pref-width: 25px;
+
+}
+#account:selected {
+    -fx-background-color: #616568;
+    -fx-pref-height: 25px;
+    -fx-text-fill: #ffffff;
+         -fx-border-width: 1;
+         -fx-border-color: #616568;
+          -fx-cursor: hand;
+               -fx-focus-color: transparent;
+               -fx-faint-focus-color: transparent;
+               -fx-padding: -3 0 0 0;
+               -fx-pref-width: 25px;
+
+}
+.mptree{
+    -fx-pref-height: 25px;
+    -fx-background-color: #616568;
+    -fx-border-width: 1;
+    -fx-border-color:  #ffffff;
+}
+.mptree1 {
+    -fx-cursor: hand;
+    -fx-pref-height: 240px;
+    -fx-pref-width: 30px;
+    -fx-padding: 0px 0 0 0px;
+    -fx-background-color: #FF6A00;
+    -fx-border-width: 1;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-border-color:  #FF6A00;
+    -fx-border-radius: 20 20 10 10;
+    -fx-text-fill: #ffffff;
+}
+.tab {
+-fx-pref-height: 40px;
+ -fx-padding: 0px 0 0 0;
+     -fx-focus-color: #DDDDDD;
+     -fx-faint-focus-color: #DDDDDD;
+}
+
+ .tabone {
+ -fx-pref-height:36px;
+  -fx-font-size: 13px;
+       -fx-alignment: center-left;
+       -fx-font-weight: 400;
+        -fx-padding: 0px 0 0 0;
+        -fx-background-color: #ffffff;
+       -fx-border-width: 1 1 1 1;
+       -fx-border-color: #616568 #616568 #616568 #616568;
+-fx-border-radius: 10 10 0 0;
+-fx-background-radius: 10 10 0 0;
+     -fx-focus-color: transparent;
+     -fx-faint-focus-color: transparent;
+     -fx-text-fill: #000000;
+
+}
+
+
+ .tabone:hover  .tab-label {
+ -fx-text-fill: #ffffff;
+-fx-background-color: #616568;
+ -fx-border-radius: 10 10 0 0;
+ -fx-background-radius: 10 10 0 0;
+}
+ .tabone:hover {
+ -fx-text-fill: #ffffff;
+-fx-background-color: #616568;
+ -fx-border-radius: 10 10 0 0;
+ -fx-background-radius: 10 10 0 0;
+}
+
+.tabone:selected .tab-label {
+-fx-border-radius: 10 10 0 0;
+ -fx-background-radius: 10 10 0 0;
+  -fx-text-fill: #ffffff;
+ -fx-background-color: #616568;
+  -fx-border-radius: 10 10 0 0;
+  -fx-background-radius: 10 10 0 0;
+ }
+ .tabone:selected {
+  -fx-text-fill: #ffffff;
+ -fx-background-color: #616568;
+  -fx-border-radius: 10 10 0 0;
+  -fx-background-radius: 10 10 0 0;
+ }
+.tab-label{
+-fx-padding: 3px 0 0 6px;
+ -fx-pref-height: 37px;
+ -fx-pref-width: 170px;
+ -fx-alignment: center-left;
+ -fx-border-radius: 10 10 0 0;
+ -fx-background-radius: 10 10 0 0;
+
+}
+
+.tab-close-button{
+   -fx-padding: 3px 4px -3px -4px;
+    -fx-border-insets: 3px  4px -3px -4px;
+    -fx-background-insets:3px 4px -3px -4px;
+ -fx-cursor: hand;
+    -fx-background-color: white;
+ -fx-font-size: 10px;
+}
+
+.mylistview{
+	-fx-border-color:#616568;
+}
+
+/* The main scrollbar CSS class of ListView */
+.mylistview .scroll-bar:horizontal ,
+.mylistview  .scroll-bar:vertical{
+    -fx-background-color:#616568;
+
+}
+
+/* обводка стрелок*/
+.mylistview .increment-button ,.mylistview .decrement-button {
+    -fx-background-color:#616568;
+	-fx-border-color:#616568;
+}
+
+/* обводка скрола  */
+.mylistview .scroll-bar:horizontal .track ,
+.mylistview .scroll-bar:vertical .track{
+     -fx-background-color: #616568;
+	 -fx-border-color:#616568;
+	 -fx-background-radius: 0em;
+}
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.mylistview .scroll-bar:horizontal .thumb,
+.mylistview .scroll-bar:vertical .thumb {
+    -fx-background-color:#FF6A00;
+	-fx-background-radius: 0em;
+
+}
+
+/* ------------------------------------------------------------------------------------- */
+/** EVENT CSS **/
+/* ------------------------------------------------------------------------------------- */
+
+/* The main scrollbar **track** CSS class on event of "hover" and "pressed" */
+
+.mylistview .scroll-bar:horizontal:hover .track ,
+.mylistview .scroll-bar:horizontal:pressed .track ,
+.mylistview .scroll-bar:vertical:hover .track,
+.mylistview .scroll-bar:vertical:pressed .track{
+     -fx-background-color:#616568;
+	 -fx-background-radius: 0em;
+
+}
+
+/* The main scrollbar **thumb** CSS class on event of "hover" and "pressed" */
+.noborder-scroll-pane .scroll-bar .thumb:hover,
+.noborder-scroll-pane .scroll-bar .thumb:pressed{
+    -fx-background-color:#616568;
+}
+
+.mylistview .increment-button:hover ,.mylistview .decrement-button:hover {
+    -fx-background-color:#616568;
+	-fx-border-color:#616568;
+	-fx-padding:10px;
+}
+.but{
+     -fx-cursor: hand;
+    -fx-text-fill: #FF6A00;
+-fx-pref-height: 33px;
+-fx-pref-width: 33px;
+-fx-border-radius: 22 22 10 0;
+-fx-background-radius: 22 22 10 0;
+   -fx-padding:0px 0 0 0px;
+    -fx-border-insets: 0px 0 0 0px;
+    -fx-background-insets: 0px 0 0 0px;
+    -fx-background-color: #616568;
+     -fx-font-size: 24px;
+     -fx-border-width: 1 1 1 1;
+     -fx-border-color: #616568 #616568 #616568 #616568;
+
+}
+.sectionbut{
+-fx-pref-height: 37px;
+-fx-pref-width: 37px;
+   -fx-padding:12px 0 0 0px;
+    -fx-border-insets: 12px 0 0 0px;
+    -fx-background-insets: 12px 0 0 0px;
+}
+
+.left1{
+    -fx-graphic: url("../../img/left1.png");
+    -fx-cursor: hand;
+    -fx-pref-height: 24px;
+    -fx-pref-width: 24px;
+    -fx-padding:0px 0 0 0px;
+    -fx-background-color: #616564;
+}
+
+.left1:hover{
+-fx-graphic: url("../../img/left.png");
+     -fx-cursor: hand;
+}
+.left2{
+    -fx-graphic: url("../../img/left.png");
+    -fx-cursor: hand;
+    -fx-pref-height: 24px;
+    -fx-pref-width: 24px;
+    -fx-padding:0px 0 0 0px;
+    -fx-background-color: #616564;
+}
+.left2:hover{
+    -fx-graphic: url("../../img/left.png");
+    -fx-cursor: hand;
+}
+#br{
+-fx-pref-height: 37px;
+-fx-pref-width: 30px;
+    -fx-background-color: #616568;
+    -fx-padding:0px 0 0 0px;
+}
+#br1{
+-fx-pref-height: 37px;
+-fx-pref-width: 12px;
+    -fx-background-color: #616568;
+    -fx-padding:0px 0 0 0px;
+}
+.right1{
+-fx-graphic: url("../../img/right1.png");
+     -fx-cursor: hand;
+-fx-pref-height: 24px;
+-fx-pref-width: 24px;
+   -fx-padding:0px 0 0 0px;
+    -fx-background-color: #616568;
+}
+.right1:hover{
+-fx-graphic: url("../../img/right.png");
+     -fx-cursor: hand;
+}
+.right2{
+    -fx-graphic: url("../../img/right.png");
+    -fx-cursor: hand;
+    -fx-pref-height: 24px;
+    -fx-pref-width: 24px;
+    -fx-padding:0px 0 0 0px;
+    -fx-background-color: #616568;
+}
+.right2:hover{
+    -fx-graphic: url("../../img/right.png");
+    -fx-cursor: hand;
+}
+#update1{
+-fx-graphic: url("../../img/update1.png");
+     -fx-cursor: hand;
+-fx-pref-height: 24px;
+-fx-pref-width: 24px;
+   -fx-padding:0px 0 0 0px;
+    -fx-background-color: #616568;
+}
+#update1:hover{
+-fx-graphic: url("../../img/update.png");
+     -fx-cursor: hand;
+}
+#home1{
+-fx-graphic: url("../../img/home1.png");
+     -fx-cursor: hand;
+-fx-pref-height: 24px;
+-fx-pref-width: 24px;
+   -fx-padding:0px 0 0 0px;
+    -fx-background-color: #616568;
+}
+#home1:hover{
+-fx-graphic: url("../../img/home.png");
+     -fx-cursor: hand;
+}
+#menu1{
+-fx-graphic: url("../../img/menu1.png");
+     -fx-cursor: hand;
+-fx-pref-height: 24px;
+-fx-pref-width: 24px;
+   -fx-padding:0px 0 0 0px;
+    -fx-background-color: #616568;
+}
+#menu1:hover{
+-fx-graphic: url("../../img/menu.png");
+     -fx-cursor: hand;
+}
+#favorites1{
+-fx-graphic: url("../../img/favorites1.png");
+     -fx-cursor: hand;
+-fx-pref-height: 24px;
+-fx-pref-width: 24px;
+   -fx-padding:0px 0 0 0px;
+    -fx-background-color: #616568;
+}
+#favorites1:hover{
+-fx-graphic: url("../../img/favorites2.png");
+     -fx-cursor: hand;
+}
+#gid{
+-fx-graphic: url("../../img/gid1.png");
+     -fx-cursor: hand;
+-fx-pref-height: 24px;
+-fx-pref-width: 24px;
+   -fx-padding:0px 0 0 0px;
+    -fx-background-color: #616568;
+}
+.but:hover{
+ -fx-text-fill: #ffffff;
+}
+.sidebar-section1 {
+ -fx-padding: 0 0 0px 0px;
+-fx-background-color:   #616568;
+    -fx-pref-height:40px;
+}
+.section1 {
+ -fx-padding: 0 0 0px 0px;
+    -fx-pref-height:40px;
+}
+.sidebar-section12 {
+ -fx-padding: 8px 0 0px 0px;
+-fx-background-color:   #616568;
+    -fx-pref-height:24px;
+}
+.content-section {
+    -fx-padding: 0 0 0 0;
+    -fx-wrap-text: true;
+
+}
+.textfil{
+  -fx-font-size: 15px;
+       -fx-alignment: center-left;
+       -fx-font-weight: 400;
+        -fx-background-color: #DDDDDD;
+       -fx-border-width: 1 1 1 1;
+       -fx-border-color: #616568 #616568 #616568 #616568;
+-fx-border-radius: 10 10 10 10;
+-fx-background-radius: 10 10 10 10;
+     -fx-focus-color: transparent;
+     -fx-faint-focus-color: transparent;
+     -fx-text-fill: #616568;
+}
+.textfil:focus{
+        -fx-background-color: #FFFFFF;
+}
+
+#content-header {
+    -fx-font-size: 18px;
+    -fx-padding: 0 0 0 0;
+    -fx-font-weight: 700;
+}
+
+#content {
+    -fx-wrap-text: true;
+    -fx-font-size: 16px;
+}
+
+
+#footer-section {
+    -fx-alignment: center;
+    -fx-padding: 10 10 10 10;
+    -fx-border-width: 1;
+    -fx-border-color: #E8E8E8 transparent transparent transparent;
+}
